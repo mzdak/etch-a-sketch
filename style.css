@@ -51,3 +51,7 @@ button{
     border: solid 3px #735f32;
     border-radius: 20%;
 }
+
+button:hover{
+    background-color: #C69749
+}
