@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header, footer{
+    text-align: center;
+    padding: 2vw;
+    background-color: #282a3a;
+}
+
+.container{
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    margin: 20px;
+    border: solid 7px #735f32;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 12px;
+    padding: 12px;
+}
